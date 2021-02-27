@@ -3,4 +3,5 @@ export const menuData=[
     {title:'Home', link:'/'},
     {title:'Entertainment News' ,link:'/entertainmentnews'},
     {title:'Music News', link:'/musicnews'},
+    // {title:'Contact', link:'/contact'}
 ];

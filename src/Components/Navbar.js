@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import { menuData } from '../data/MenuData';
 import { Button } from './Button';
 import {GoThreeBars} from 'react-icons/go';
+import Contact from './pages/ContactPage';
 
 
 const Nav = styled.nav`
@@ -85,9 +86,10 @@ const Navbar = () => {
                 ))}
             </NavMenu>
             <NavBtn>
-                <Button to='/contact' primary='true'>Contact Us</Button>
+                <Button to='/contact' primary='true'>
+                    Contact Us!
+                </Button>
             </NavBtn>
-            
         </Nav>
     )
 }
