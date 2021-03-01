@@ -1,8 +1,8 @@
 import React from 'react';
 import "../style/Cards.css";
 
-function Podcast (){
-   
+class Podcast extends React.Component {
+    render() {
         return (
             <div className="card">
                 <img alt={this.props.name} src={this.props.link} />
@@ -17,6 +17,6 @@ function Podcast (){
             </div>
 
         )
-    
+    }
 }
 export default Podcast;

@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/Contact.css"
 
- function Contact() {
+export default function Contact() {
     const [email, setEmail] = React.useState("");
     const [name, setName] = React.useState("");
     const [acceptedTerms, setAcceptedTerms] = React.useState(false);
@@ -52,6 +52,4 @@ import "../style/Contact.css"
             <button className="con-btn">Submit</button>
         </form>
     );
-};
-
-export default Contact;
+}
